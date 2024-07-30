@@ -41,21 +41,21 @@ export default function ServerCard({
           <ServerUsageBar value={cpu} />
         </div>
         <div className={"flex flex-col"}>
-          <p className="text-xs text-muted-foreground">Mem</p>
+          <p className="text-xs text-muted-foreground">内存</p>
           <div className="text-xs font-semibold">{mem.toFixed(2)}%</div>
           <ServerUsageBar value={mem} />
         </div>
         <div className={"flex flex-col"}>
-          <p className="text-xs text-muted-foreground">STG</p>
+          <p className="text-xs text-muted-foreground">存储</p>
           <div className="text-xs font-semibold">{stg.toFixed(2)}%</div>
           <ServerUsageBar value={stg} />
         </div>
         <div className={"flex flex-col"}>
-          <p className="text-xs text-muted-foreground">Upload</p>
+          <p className="text-xs text-muted-foreground">上传</p>
           <div className="text-xs font-semibold">{up.toFixed(2)}Mb/s</div>
         </div>
         <div className={"flex flex-col"}>
-          <p className="text-xs text-muted-foreground">Download</p>
+          <p className="text-xs text-muted-foreground">下载</p>
           <div className="text-xs font-semibold">{down.toFixed(2)}Mb/s</div>
         </div>
       </section>
