@@ -14,7 +14,7 @@ const fontSans = FontSans({
 
 export const metadata: Metadata = {
   manifest: "/manifest.json",
-  title: "HomeDash",
+  title: "Roofangの探针",
   description: "A dashboard for nezha",
   appleWebApp: {
     capable: true,
