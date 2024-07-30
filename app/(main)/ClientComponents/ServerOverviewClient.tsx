@@ -18,7 +18,7 @@ export default function ServerOverviewClient() {
       <Card>
         <CardContent className="px-6 py-3">
           <section className="flex flex-col gap-1">
-            <p className="text-md font-medium">Total servers</p>
+            <p className="text-md font-medium">总服务器数</p>
             <div className="flex items-center gap-2">
               <span className="relative flex h-2 w-2">
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-blue-500"></span>
