@@ -34,7 +34,7 @@ export default function ServerCardPopover({
   return (
     <section className="max-w-[300px]">
       <ServerCardPopoverCard
-        title="System"
+        title="系统"
         content={`${host.Platform}-${host.PlatformVersion} [${host.Virtualization}: ${host.Arch}]`}
       />
       <ServerCardPopoverCard
@@ -42,28 +42,28 @@ export default function ServerCardPopover({
         content={`${host.CPU.map((item) => item).join(", ")}`}
       />
       <ServerCardPopoverCard
-        title="Mem"
+        title="内存"
         content={`${formatBytes(host.MemTotal)} / ${formatBytes(status.MemUsed)}`}
       />
       <ServerCardPopoverCard
-        title="STG"
+        title="存储"
         content={`${formatBytes(status.DiskUsed)} / ${formatBytes(host.DiskTotal)}`}
       />
       <ServerCardPopoverCard
-        title="Swap"
+        title="交换"
         content={`${formatBytes(status.SwapUsed)} / ${formatBytes(host.SwapTotal)}`}
       />
       <ServerCardPopoverCard
-        title="Network"
+        title="网络"
         content={`${formatBytes(status.NetInTransfer)} / ${formatBytes(status.NetOutTransfer)}`}
       />
       <ServerCardPopoverCard
-        title="Load"
+        title="负载"
         content={`${status.Load1.toFixed(2)} / ${status.Load5.toFixed(2)} / ${status.Load15.toFixed(2)}`}
       />
       <ServerCardPopoverCard
         className="mb-0"
-        title="Online"
+        title="在线"
         content={`${(status.Uptime / 86400).toFixed(0)} Days`}
       />
     </section>
