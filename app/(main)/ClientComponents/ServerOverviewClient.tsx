@@ -18,7 +18,7 @@ export default function ServerOverviewClient() {
       <Card>
         <CardContent className="px-6 py-3">
           <section className="flex flex-col gap-1">
-            <p className="text-md font-medium">总服务器数</p>
+            <p className="text-md font-medium">服务器</p>
             <div className="flex items-center gap-2">
               <span className="relative flex h-2 w-2">
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-blue-500"></span>
@@ -37,7 +37,7 @@ export default function ServerOverviewClient() {
       <Card>
         <CardContent className="px-6 py-3">
           <section className="flex flex-col gap-1">
-            <p className="text-md font-medium">Online servers</p>
+            <p className="text-md font-medium">在线</p>
             <div className="flex items-center gap-2">
               <span className="relative flex h-2 w-2">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75"></span>
@@ -57,7 +57,7 @@ export default function ServerOverviewClient() {
       <Card>
         <CardContent className="px-6 py-3">
           <section className="flex flex-col gap-1">
-            <p className="text-md font-medium">Offline servers</p>
+            <p className="text-md font-medium">离线</p>
             <div className="flex items-center gap-2">
               <span className="relative flex h-2 w-2">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-500 opacity-75"></span>
@@ -77,7 +77,7 @@ export default function ServerOverviewClient() {
       <Card>
         <CardContent className="relative px-6 py-3">
           <section className="flex flex-col gap-1">
-            <p className="text-md font-medium">Total bandwidth</p>
+            <p className="text-md font-medium">总流量</p>
             {data ? (
               <p className="text-lg font-semibold">
                 {formatBytes(data?.total_bandwidth)}
