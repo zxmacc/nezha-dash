@@ -71,7 +71,7 @@ function Overview() {
 
   return (
     <section className={"mt-10 flex flex-col md:mt-16"}>
-      <p className="text-md font-semibold">👋 总览</p>
+      <p className="text-md font-semibold">👋 你好</p>
       <div className="flex items-center gap-1.5">
         <p className="text-sm font-medium opacity-50">现在时间是</p>
         {mouted && (
