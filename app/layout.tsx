@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description: "A dashboard for nezha",
   appleWebApp: {
     capable: true,
-    title: "HomeDash",
+    title: "Roofangの探针",
     statusBarStyle: "black-translucent",
   },
 };
